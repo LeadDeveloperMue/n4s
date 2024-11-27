@@ -1,0 +1,132 @@
+/* General body styling */
+body {
+    background: url('assets/img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the login container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
+
+/* Login form styling */
+form {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-h2{
+    color: #007bff;
+    display: block;
+    padding-right: 80px;
+}
+/* Input fields */
+form .form-control {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Submit button */
+form button {
+    width: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.containerx {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fffefef6;
+    border-radius: 8px;
+    box-shadow: 0 18px 10px rgba(0, 0, 0, 0.2);
+    padding: 100px;
+    text-align: center;
+}
+#button-2{
+    /*padding-left: 50px;*/
+    margin: 2px 5px 2px 5px;
+    width: 50%;
+    background-color: #2d0ba7;
+    color: white;
+    border: none;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Headings */
+form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Error message */
+.text-danger {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#footer{
+    margin-top: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 11px;
+    }
+}
